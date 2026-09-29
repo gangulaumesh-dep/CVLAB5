@@ -22,10 +22,4 @@ Ensure you have the required Python libraries installed:
 
 OUTPUT:-
 
-<img width="1415" height="345" alt="image" src="https://github.com/user-attachments/assets/066cfebf-1504-4846-82e8-1b7003deed9a" />
-
-
-1. **Image Loading**: The image is loaded directly in grayscale mode.
-2. **Gray Level Slicing (Without Background)**: A binary-like mask is created where pixels within the target intensity range `[r_min, r_max]` are set to 255 (white), and all other pixels are set to 0 (black).
-3. **Gray Level Slicing (With Background)**: The pixels within the target range are highlighted by setting them to 255 (white), but the remaining pixels retain their original intensity values.
-4. **Visualization**: Uses Matplotlib to display the original image along with the two different gray-level sliced outputs.
+<img width="914" height="836" alt="image" src="https://github.com/user-attachments/assets/11101e92-0249-47c4-924a-5a2fa11f8b19" />
